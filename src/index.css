@@ -34,9 +34,10 @@
   );
 }
 
-/* Custom smooth behavior */
+/* Custom smooth behavior and site scaling */
 html {
   scroll-behavior: smooth;
+  zoom: 0.9;
 }
 
 /* Selection */
