@@ -59,8 +59,8 @@ export default function Navbar() {
             onClick={(e) => handleScrollTo(e, '#heros')}
             className="flex items-center gap-3 group cursor-pointer"
           >
-            <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
-              <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain" />
+            <div className="w-14 h-14 rounded-xl overflow-hidden flex items-center justify-center bg-white border border-slate-100 shadow-sm">
+              <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <span className="text-xl font-black text-slate-900 tracking-tight block leading-none">
