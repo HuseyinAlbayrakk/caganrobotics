@@ -57,10 +57,18 @@ export default function Navbar() {
           <a 
             href="#heros" 
             onClick={(e) => handleScrollTo(e, '#heros')}
-            className="flex items-center group cursor-pointer"
+            className="flex items-center gap-3 group cursor-pointer"
           >
-            <div className="w-20 h-20 rounded-2xl bg-white flex items-center justify-center shadow-lg shadow-indigo-500/10 group-hover:scale-105 transition-transform duration-300 overflow-hidden">
-              <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain p-1" />
+            <div className="w-14 h-14 flex items-center justify-center overflow-hidden">
+              <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain" />
+            </div>
+            <div>
+              <span className="text-xl font-black text-slate-900 tracking-tight block leading-none">
+                ÇAĞAN <span className="text-indigo-600">ROBOTICS</span>
+              </span>
+              <span className="text-[10px] font-bold text-slate-500 tracking-wider uppercase">
+                KİLİS TEKNOLOJİ ATÖLYESİ
+              </span>
             </div>
           </a>
 

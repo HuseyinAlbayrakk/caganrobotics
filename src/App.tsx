@@ -945,9 +945,9 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 pb-10 border-b border-slate-900">
             
             <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-3">
-                <div className="w-16 h-16 rounded-2xl bg-white flex items-center justify-center shadow-lg overflow-hidden shrink-0">
-                  <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain p-1" />
+              <div className="flex items-center justify-center md:justify-start gap-3.5">
+                <div className="w-14 h-14 flex items-center justify-center overflow-hidden shrink-0">
+                  <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain" />
                 </div>
                 <div>
                   <span className="text-xl font-black text-white tracking-tight block">
