@@ -13,6 +13,7 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import Navbar from './components/Navbar';
 import CodingGame from './components/CodingGame';
+import logo from './assets/logo.png';
 import { Workshop, FAQItem, FeedbackSubmission } from './types';
 
 // Kids and Parent Testimonials or pre-filled guest log
@@ -944,9 +945,9 @@ export default function App() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 pb-10 border-b border-slate-900">
             
             <div className="text-center md:text-left">
-              <div className="flex items-center justify-center md:justify-start gap-2.5">
-                <div className="w-10 h-10 rounded-2xl bg-indigo-600 text-white flex items-center justify-center shadow-lg">
-                  <Cpu className="w-5.5 h-5.5 text-white" />
+              <div className="flex items-center justify-center md:justify-start gap-3">
+                <div className="w-16 h-16 rounded-2xl bg-white flex items-center justify-center shadow-lg overflow-hidden shrink-0">
+                  <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-contain p-1" />
                 </div>
                 <div>
                   <span className="text-xl font-black text-white tracking-tight block">
