@@ -7,6 +7,8 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Cpu, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
+import logo from '../assets/logo.png';
+
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -57,8 +59,8 @@ export default function Navbar() {
             onClick={(e) => handleScrollTo(e, '#heros')}
             className="flex items-center gap-2.5 group cursor-pointer"
           >
-            <div className="w-10 h-10 rounded-2xl bg-indigo-600 text-white flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:rotate-12 transition-transform duration-300">
-              <Cpu className="w-5.5 h-5.5 text-white animate-pulse" />
+            <div className="w-10 h-10 rounded-2xl bg-indigo-50 text-indigo-600 flex items-center justify-center shadow-lg shadow-indigo-500/10 group-hover:rotate-12 transition-transform duration-300 overflow-hidden">
+              <img src={logo} alt="Çağan Robotics Logo" className="w-full h-full object-cover" />
             </div>
             <div>
               <span className="text-xl font-black text-slate-900 tracking-tight block leading-none">
