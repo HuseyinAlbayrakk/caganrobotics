@@ -1,0 +1,6 @@
+{
+  "name": "Kilis Çağan Robotics",
+  "description": "Kilis'te çocuklar için kodlama, robotik ve yazılım geliştirme eğitimi veren yenilikçi eğitim atölyesi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
